@@ -1,0 +1,8 @@
+.ryan-rolfes-image {
+  width: 300px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+}
