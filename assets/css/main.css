@@ -2590,12 +2590,17 @@
 
 	.ryan-rolfes-image {
 		width: 300px;
+		border: 10px black;
 	}
 
 	.about-me {
 	  display: flex;
 	  flex-direction: row-reverse;
 		justify-content: space-between;
+	}
+
+	.about-me-photo {
+		padding-left: 45px;
 	}
 
 	.image {
@@ -3901,7 +3906,7 @@
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 1em;
 		}
 
 			@media screen and (max-width: 980px) {
