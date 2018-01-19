@@ -1,7 +1,7 @@
 @import url(font-awesome.min.css);
 
 /*
-	Hyperspace by HTML5 UP
+	Ryan Rolfes
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -3027,7 +3027,7 @@
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: 22.5em;
+		min-height: 25em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3040,7 +3040,7 @@
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 100%;
 		}
 
 			.spotlights > section > .image img {
