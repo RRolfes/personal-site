@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  let sendMessage = document.getElementById('sendMessage');
+  let sendMessage = document.getElementById('send-message');
 
-  sendMessage.addEventListener('click', (e) => {
+  sendMessage.addEventListener("click", (e) => {
     e.preventDefault();
 
     let subject = document.getElementById('subject').value;
@@ -10,10 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.location.href = `mailto:RRolfes@alumni.stanford.edu?subject=${subject}&body=${message}`;
   });
-
-
-
-
 
 
 });
